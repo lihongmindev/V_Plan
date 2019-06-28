@@ -17,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.mycompany.vplan.amin.DepthPageTransformer;
 import com.mycompany.vplan.fragment.DeskFragment;
 import com.mycompany.vplan.fragment.ShopFragment;
 
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         mTablayout= findViewById(R.id.tabLayout);
         mViewPager= findViewById(R.id.viewPager);
-
+        mViewPager.setPageTransformer(true,new DepthPageTransformer());
         mViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
 
             private String[] mTitles = new String[]{"商店", "课桌"};
