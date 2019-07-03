@@ -30,4 +30,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desk">课桌</string>
+    <string name="shop">商店</string>
+    <string name="recharge">土豪币</string>
+    <string name="grades">学霸券</string>
+    <string name="purchased">已购项目</string>
+    <string name="wifi">wifi设置</string>
+    <string name="answer">答案</string>
+    <string name="scratch_paper">草稿纸</string>
 </resources>

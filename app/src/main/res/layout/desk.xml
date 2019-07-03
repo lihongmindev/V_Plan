@@ -8,13 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary">
-        <TextView
+        <Spinner
+            android:id="@+id/spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/title_text"
             android:layout_centerInParent="true"
-            android:textColor="#fff"
-            android:textSize="20sp"/>
+            android:dropDownWidth="wrap_content"/>
         <Button
             android:layout_width="25dp"
             android:layout_height="25dp"
@@ -32,10 +31,17 @@
             android:layout_centerVertical="true"
             android:background="@drawable/collect_selector"/>
     </RelativeLayout>
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:queryHint="搜索库存" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLightGray"
+        android:id="@+id/recycler_view">
+    </android.support.v7.widget.RecyclerView>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Desk"/>
 </LinearLayout>

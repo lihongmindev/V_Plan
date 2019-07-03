@@ -2,12 +2,52 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
-        <TextView
+        <SearchView
+            android:id="@+id/searchView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="Shop"/>
+            android:layout_height="wrap_content"
+            android:iconifiedByDefault="false"
+            android:queryHint="在商店中搜索" />
+        <RelativeLayout
+            android:id="@+id/like"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/like_cards"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/recommend"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/recommend_cards"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/classify"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/classify_item1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/classify_item2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+        </RelativeLayout>
 
 </LinearLayout>

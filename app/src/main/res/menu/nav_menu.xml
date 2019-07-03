@@ -2,8 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id = "@+id/nav_call"
-            android:icon = "@drawable/house"
-            android:title="首页"/>
+            android:id = "@+id/desk"
+            android:icon = "@drawable/desk_selector"
+            android:title="@string/desk"/>
+        <item
+            android:id = "@+id/shop"
+            android:icon = "@drawable/shop_selector"
+            android:title="@string/shop"/>
+        <item
+            android:id = "@+id/recharge"
+            android:icon = "@drawable/recharge"
+            android:title="@string/recharge"/>
+        <item
+            android:id = "@+id/grades"
+            android:icon = "@drawable/grades"
+            android:title="@string/grades"/>
+        <item
+            android:id = "@+id/purchased"
+            android:icon = "@drawable/purchased"
+            android:title="@string/purchased"/>
     </group>
 </menu>
