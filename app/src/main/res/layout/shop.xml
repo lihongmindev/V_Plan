@@ -20,7 +20,6 @@
             android:id="@+id/like_cards"
             android:layout_width="match_parent"
             android:layout_height="160dp">
-
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/recommend"
