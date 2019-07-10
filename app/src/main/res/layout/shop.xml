@@ -14,6 +14,14 @@
             android:id="@+id/like"
             android:layout_width="match_parent"
             android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="猜你喜欢"
+                    android:textSize="20sp"
+                    android:drawableLeft="@drawable/hot"
+                    android:drawablePadding="4dp"/>
 
         </RelativeLayout>
         <RelativeLayout
@@ -21,10 +29,22 @@
             android:layout_width="match_parent"
             android:layout_height="160dp">
         </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"/>
         <RelativeLayout
             android:id="@+id/recommend"
             android:layout_width="match_parent"
             android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="热门推荐"
+                    android:textSize="20sp"
+                    android:drawableLeft="@drawable/tuijian"
+                    android:drawablePadding="4dp"/>
 
         </RelativeLayout>
         <RelativeLayout
@@ -33,10 +53,22 @@
             android:layout_height="160dp">
 
         </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"/>
         <RelativeLayout
             android:id="@+id/classify"
             android:layout_width="match_parent"
             android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="分类浏览"
+                    android:textSize="20sp"
+                    android:drawableLeft="@drawable/fenlei"
+                    android:drawablePadding="4dp"/>
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/classify_item1"
